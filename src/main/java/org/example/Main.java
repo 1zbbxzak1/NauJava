@@ -9,5 +9,9 @@ public class Main {
         // Первое задание
         FirstTask firstTask = new FirstTask(System.in, System.out);
         firstTask.firstTask();
+
+        // Второе задание
+        SecondTask secondTask = new SecondTask(System.in, System.out);
+        secondTask.secondTask();
     }
 }
