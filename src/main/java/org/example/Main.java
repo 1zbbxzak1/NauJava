@@ -1,0 +1,13 @@
+package org.example;
+
+import org.example.first.FirstTask;
+import org.example.second.SecondTask;
+import org.example.third.ThirdTask;
+
+public class Main {
+    public static void main(String[] args) {
+        // Первое задание
+        FirstTask firstTask = new FirstTask(System.in, System.out);
+        firstTask.firstTask();
+    }
+}
