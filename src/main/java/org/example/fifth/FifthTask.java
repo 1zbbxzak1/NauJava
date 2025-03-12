@@ -18,6 +18,8 @@ public class FifthTask implements Task {
 
     @Override
     public void start() {
+        out.println("===== Fifth Task =====");
+
         if (thread != null && thread.isAlive()) {
             return;
         }
