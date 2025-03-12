@@ -3,6 +3,7 @@ package org.example;
 import org.example.first.FirstTask;
 import org.example.second.SecondTask;
 import org.example.fifth.FifthTask;
+import org.example.fourth.FourthTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +16,10 @@ public class Main {
         secondTask.secondTask();
         // Пятое задание
         int startTime = 10; // для проверки
+        // Четвертое задание
+        FourthTask fourthTask = new FourthTask(System.out);
+        fourthTask.fourthTaskSync();
+        fourthTask.fourthTaskAsync();
 
         FifthTask fifthTask = new FifthTask(System.out, startTime);
         fifthTask.start();
